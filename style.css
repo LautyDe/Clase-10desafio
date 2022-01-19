@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-padding: 160px;
+}
+/* Se usara CSS solo en la pagina de index, no la en la 
+de products */
+
+/* Logo que va a acompañar junto con el menu a medida que
+scrolliemos por la pag */
+h1 {
+  background-color: rgb(125, 171, 255);
+  text-align: center;
+  padding: 25px 35px 35px 35px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.33em;
+  font-weight: bold;
+}
+
+.main-menu {
+  background-color: rgb(125, 171, 255);
+  text-align: center;
+}
+
+.main-menu nav ul li {
+  display: inline-block;
+  padding: 0px 25px;
+  margin: 0px 30px 5px 30px;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+main {
+  padding: 0 10%;
+}
+
+section {
+  margin: 4em 0;
+}
+
+/* Fin del header y de generalidades en la pagina */
+
+/* Services */
+
+.service {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.service-text {
+  text-align: justify;
+  margin: auto;
+}
+
+/* Fin services */
+
+/* Works */
+
+.works {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.preview {
+  max-width: 25%;
+  padding: 1em;
+}
+.preview-img {
+  width: 300px;
+  height: 240px;
+}
+
+/* FAQ */
+
+.question {
+  margin: 3em;
+  display: flex;
+}
+
+.answer {
+  margin-left: 15%;
+}
+
+/* Fin FAQ */
+
+/* Reviews */
+
+.reviews {
+  display: flex;
+}
+
+.review {
+  margin: 2em;
+}
+
+.star-img {
+  width: 200px;
+  margin: 0 auto 0 auto;
+  display: block;
+}
+
+/* Fin Reviews */
+
+/* Contacts - Footer */
+
+.footer-titles {
+  padding: 2em 0;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-rows: 1fr 100px 100px 100px;
+  grid-template-columns: 1fr;
+  margin: 0;
+  border-top: 3px solid gray;
+}
+
+.grid-logo {
+  grid-row: 1/5;
+  grid-column: 1/2;
+  margin: auto auto auto 20%;
+}
+
+.grid-location {
+  grid-row: 1/2;
+  grid-column: 2/4;
+}
+
+.grid-map {
+  margin: 0 auto;
+}
+
+.grid-follow-us {
+  grid-row: 2/4;
+  grid-column: 2/3;
+}
+
+.grid-nets {
+  margin: auto auto 500px 20%;
+}
+
+.grid-ig {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+.grid-tw {
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+
+.grid-fb {
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+
+.grid-lin {
+  grid-row: 4/5;
+  grid-column: 3/4;
+}
+
+.social-nets-title {
+  color: rgb(17, 0, 255);
+  font-size: 2em;
+}
+
+/* Fin Contacts */
+
+/* Products */
+
+.product-description {
+  width: 25em;
+  padding: 1em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Fin Products */
